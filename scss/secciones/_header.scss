@@ -1,0 +1,16 @@
+.header{
+    &__ul{
+        display: flex;
+        justify-content: space-evenly;
+        li{
+            list-style: none;
+            text-decoration: none;
+            margin: 1rem;
+            color: #827397;
+            padding-top: 50px;
+            &:hover{
+                color: #E9D5CA;
+            }
+        }
+    }
+}

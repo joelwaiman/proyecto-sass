@@ -1,0 +1,19 @@
+%estilosParrafos{
+    font-size: 20px;
+    color: $colorTexto;
+    padding-top: 10px;
+}
+
+%styleH2{
+    font-family: $typoTitle;
+    font-size: 50px;
+    color: $colorTexto;
+}
+
+@mixin fontStyle ($colorFondo, $colorTexto) {
+    background-color: $colorFondo;
+    color: $colorTexto;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: $typoTitle;
+}
